@@ -43,5 +43,44 @@ Team members who collaborated on this project:
 * **Data Limitations & Preprocessing Notes:** 
   * **Tech Category Filter:** To align with Eniac's product focus, analysis was filtered to tech-related categories (`computers_accessories`, `computers`, `pc_gamer`, `tablets_printing_image`, `telephony`, `fixed_telephony`, `electronics`, `audio`, `cine_photo`, and `consoles_games`).
   * Product category names were originally in Portuguese and required translation using the provided category translation table.
+ 
+
+### 🚀 Key Findings & Results
+
+* **Significant Market Mismatch:** Magist generated €13.59 million across 2 years, with technology categories representing only 14% (€1.90 million) of gross platform revenue. 
+* **The Average Basket Value Disconnect:** Magist's average order price for tech items sits at roughly €124, representing a massive gap compared to ENIAC's typical pricing expectations.
+* **High-End Product Deficit & Price Tiers:** Over 82% of all tech sales fall into budget essentials ($\le$€50) and standard accessories (€51–€150), generating €1.3M, while mid-range-to-ultra-premium tiers above €150 account for only €575K.
+* **Logistics Volatility & Customer Satisfaction Cliff:** While national delivery averages 13 days, delivery delays severely damage brand perception—dragging customer review scores down from a healthy 4+ stars for on-time deliveries to 2.58 for delayed shipments, and plunging to 1.70 stars for unfulfilled orders. Shipping and delay complaints make up the single largest share of customer grievances (~30%).
+* **Macroeconomic Vulnerability:** Magist's revenue trends reveal severe platform plateauing and volatility heading into late 2018, heavily exacerbated by external shocks like Brazil's national truckers' strike and political instability.
+* **Strategic Verdict & Recommendation:** A nationwide flagship hardware launch on Magist is a **No-Go** due to high fulfillment risks and low basket sizes; a safer alternative is a phased accessory pilot (€50–€150) strictly restricted to high-density hubs like São Paulo.
+
+### 🛠️ Technologies Used
+
+* **Database & Querying:**
+  * SQL (MySQL, MySQL Workbench)
+* **Visualization & Reporting:**
+  * Tableau
+* **Presentation & Documentation:**
+  * Canva, MS Word
+
+
+### 📁 Project Structure
+
+```text
+├── README.md
+├── presentation/
+│   └── eniac_magist_presentation.pdf                        # Presentation for the case study
+├── docs/
+│   └── market_entry_feasibility_assessment_magist.pdf       # Document with all the analysis, strategies & verdict
+    └── magist_schema.pdf                                    # Database diagram
+├── sql/
+│   └── magist_data_analysis.sql                             # Queries for analysing the Magist dataset
+├── csv/
+│   ├── *.csv                                                # All .csv files corresponding to the data analysis
+├── tableau/
+│   ├── magist_tableau_workbook_part_1.twbx                  # Tableau workbook: Sales, Avg Delay, Order concentration & Monthly revenue analysis 
+│   └── magist_tableau_workbook_part_2.twbx                  # Tableau workbook: Price Category, Complaint Categories & Impact of Delivery Delays on Reviews
+                                       
+
 
 
