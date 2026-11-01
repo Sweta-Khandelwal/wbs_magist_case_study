@@ -9,6 +9,7 @@
 - [**Asli Ergün**](https://github.com/erguenasli)
 - [**Catalina Mayer**](https://github.com/catalinavalenciamayer)
 
+---
 
 ## 📦 Deliverables
 
@@ -18,6 +19,7 @@
 - 💻 **[SQL Analysis Script](sql/magist_data_analysis.sql)**
 - 📈 **[Tableau Workbooks](tableau/)**
   
+---
 
 ## 🎯 Project Overview
 
@@ -54,6 +56,7 @@ Using SQL and exploratory data analysis, our team addressed two critical busines
   * **Tech Category Filter:** To align with Eniac's product focus, analysis was filtered to tech-related categories (`computers_accessories`, `computers`, `pc_gamer`, `tablets_printing_image`, `telephony`, `fixed_telephony`, `electronics`, `audio`, `cine_photo`, and `consoles_games`).
   * Product category names were originally in Portuguese and required translation using the provided category translation table.
  
+---
 
 ### 🚀 Key Findings & Results
 
@@ -64,6 +67,8 @@ Using SQL and exploratory data analysis, our team addressed two critical busines
 * **Macroeconomic Vulnerability:** Magist's revenue trends reveal severe platform plateauing and volatility heading into late 2018, heavily exacerbated by external shocks like Brazil's national truckers' strike and political instability.
 * **Strategic Verdict & Recommendation:** A nationwide flagship hardware launch on Magist is a **No-Go** due to high fulfillment risks and low basket sizes; a safer alternative is a phased accessory pilot (€50–€150) strictly restricted to high-density hubs like São Paulo.
 
+---
+
 ### 🛠️ Technologies Used
 
 * **Database & Querying:**
@@ -73,6 +78,7 @@ Using SQL and exploratory data analysis, our team addressed two critical busines
 * **Presentation & Documentation:**
   * Canva, MS Word
 
+---
 
 ### 📁 Project Structure
 
@@ -91,6 +97,8 @@ Using SQL and exploratory data analysis, our team addressed two critical busines
 │   ├── magist_tableau_workbook_part_1.twbx                  # Tableau workbook: Sales, Avg Delay, Order concentration & Monthly revenue analysis 
 │   └── magist_tableau_workbook_part_2.twbx                  # Tableau workbook: Price Category, Complaint Categories & Impact of Delivery Delays on Reviews
 ```
+
+---
 
 ## 📈 Visualisations
 
@@ -114,12 +122,38 @@ Using SQL and exploratory data analysis, our team addressed two critical busines
 
 * **Average Delivery Days Per State**: Highlights regional logistical variations across states. For instance, northern regions experience extended shipping times averaging up to 27 days, pinpointing key fulfillment bottlenecks.
 
+---
 
+## Strategic Recommendations & Alternative Phased Pilot
 
+1. **Enforce Immediate Hardware No-Go:** Reject nationwide distribution of high-end consumer hardware (> €500) via Magist. The low absolute demand volume (< 23 sales/month nationwide) cannot justify Brazilian subsidiary formation, customs clearance and mandatory armed transport escorts.
+2. **Execute Phased Accessories Pilot (€50–€150):** If leadership seeks entry into Latin America, initiate a targeted pilot restricted exclusively to **São Paulo State (postal prefixes 0xxxx and 1xxxx)**.
+    * Focus on mid-range accessories: Apple-compatible charging stations, multi-port hubs, quality webcams and specialized styluses.
+    * Maintain average transit times under 8–9 days within São Paulo to protect brand equity and preserve review ratings above 4.1 stars.
+    * Utilize regional fulfillment partners in São Paulo to eliminate the risk of rural last-mile handoffs and cargo security surcharges.
 
+---
 
+## 🛠️ How to Use This Project
 
+1. **Tableau Dashboards**: Explore the interactive visual analyses in the Tableau workbooks located in the [tableau](tableau/) folder ([magist_tableau_workbook_part_1.twbx](tableau/magist_tableau_workbook_part_1.twbx) and [magist_tableau_workbook_part_2.twbx](tableau/magist_tableau_workbook_part_2.twbx)).
+2. **Presentation**: Review the final case study findings and slide deck in the [presentation](presentation/) folder ([eniac_magist_presentation.pdf](presentation/eniac_magist_presentation.pdf)).
+3. **Data & Queries**: Access the underlying dataset files in [csv](csv/) and review the extraction queries in [magist_data_analysis.sql](sql/magist_data_analysis.sql).
+4. **Dependencies**: Requires Tableau Desktop/Reader for interactive visualizations and a standard SQL viewer/workbench.
 
+### 📁 What Files to Look at First
+
+* **[eniac_magist_presentation.pdf](presentation/eniac_magist_presentation.pdf)**: The complete case study presentation summarizing insights, strategic verdicts, and business recommendations.
+* **[tableau](tableau/)**: Core Tableau workbooks covering sales trends, delivery delays, price tiers, and complaint categories.
+* **[docs](docs/)**: Comprehensive documentation including market entry feasibility assessments and database schemas ([magist_schema.pdf](docs/magist_schema.pdf)).
+* **[magist_data_analysis.sql](sql/magist_data_analysis.sql)**: The primary SQL queries used to query the Magist dataset.
+
+---
+
+## 📬 Contact
+
+- **LinkedIn:** [https://linkedin.com/in/khandelwal-sweta](www.linkedin.com/in/khandelwal-sweta)
+- **GitHub:** [https://github.com/Sweta-Khandelwal](https://github.com/Sweta-Khandelwal)
 
 
 
