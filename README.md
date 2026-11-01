@@ -90,7 +90,20 @@ Using SQL and exploratory data analysis, our team addressed two critical busines
 ├── tableau/
 │   ├── magist_tableau_workbook_part_1.twbx                  # Tableau workbook: Sales, Avg Delay, Order concentration & Monthly revenue analysis 
 │   └── magist_tableau_workbook_part_2.twbx                  # Tableau workbook: Price Category, Complaint Categories & Impact of Delivery Delays on Reviews
-                                       
 
+
+## Key Visualisations & Insights
+
+![Impact of Delivery Delays on Ratings](images/monthly_revenue_trends.png)
+* **Monthly Revenue Trends (2017-2018)**: Illustrates the business's revenue growth trajectory, showing a strong upward trend scaling up towards the 1,000K € peak before a steep drop-off toward late 2018[cite: 3]. This highlights core periods of high financial performance[cite: 3].
+
+![Impact of Delivery Delays on Ratings](images/delivery_delay_impact.png) 
+* **Impact of Delivery Delays on Ratings**: Demonstrates a clear negative correlation between shipping reliability and customer satisfaction[cite: 4]. On-time deliveries average a high 4.15/5 rating, whereas delayed or unfulfilled orders cause customer review scores to plummet significantly[cite: 4].
+
+![Tech Units Sold Per Price Tier](images/tech_units_sold_per_price_tier.png) 
+* **Tech Units Sold Per Price Tier**: Breaks down sales volume across product price points, revealing that the vast majority of units are concentrated in the Budget Essentials (~8.9K units) and Standard Accessories tiers, while premium tiers account for minimal overall volume[cite: 5].
+
+![Average Delivery Days Per State](images/delivery_delay_geographically.png) 
+* **Average Delivery Days Per State**: Highlights regional logistical variations, mapping out average delivery days across states[cite: 7]. For instance, northern regions like Amazonas (AM) experience extended shipping times averaging 27 days, highlighting regional fulfillment bottlenecks[cite: 7].                                     
 
 
