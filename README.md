@@ -1,5 +1,23 @@
-# wbs_magist_case_study
-Feasibility assessment of whether ENIAC should enter the Brazilian e-commerce market via Magist.
+# ENIAC Market Entry: Brazil
+### Feasibility assessment of whether ENIAC should enter the Brazilian e-commerce market via Magist.
+
+---
+
+### Contributors: ⚡ Team Electricity
+
+- [**Sweta Khandelwal**](https://github.com/Sweta-Khandelwal)
+- [**Asli Ergün**](https://github.com/erguenasli)
+- [**Catalina Mayer**](https://github.com/catalinavalenciamayer)
+
+
+## 📦 Deliverables
+
+- 📊 **[Strategic Insights & Recommendations Deck (PDF)](presentation/eniac_magist_presentation.pdf)**
+- 📄 **[Complete Findings & Presentation Plan (PDF)](docs/market_entry_feasibility_assessment_magist.pdf)**
+- 🗺️ **[Database Schema Diagram (PDF)](docs/magist_schema.pdf)**
+- 💻 **[SQL Analysis Script](sql/magist_data_analysis.sql)**
+- 📈 **[Tableau Workbooks](tableau/)**
+  
 
 ## 🎯 Project Overview
 
@@ -21,14 +39,6 @@ Using SQL and exploratory data analysis, our team addressed two critical busines
 2. **Delivery Speed:** Does Magist's public Post Office fulfillment network meet Eniac’s standards for fast customer delivery?
 
 ---
-
-### ⚡ Team Electricity Contributors
-
-Team members who collaborated on this project:
-
-* **Sweta Khandelwal** - [GitHub Profile](https://github.com/Sweta-Khandelwal)
-* **Asli Ergün**
-* **Catalina Mayer**
 
 ## 📊 Dataset & Sources
 
