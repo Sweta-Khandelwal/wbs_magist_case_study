@@ -152,7 +152,7 @@ Using SQL and exploratory data analysis, our team addressed two critical busines
 
 ## 📬 Contact
 
-- **LinkedIn:** [https://linkedin.com/in/khandelwal-sweta](https://linkedin.com/in/khandelwal-sweta])
-- **GitHub:** [https://github.com/Sweta-Khandelwal](https://github.com/Sweta-Khandelwal)
+* LinkedIn: [https://www.linkedin.com/in/khandelwal-sweta/](https://www.linkedin.com/in/khandelwal-sweta/)
+* GitHub: [https://github.com/Sweta-Khandelwal](https://github.com/Sweta-Khandelwal)
 
 
